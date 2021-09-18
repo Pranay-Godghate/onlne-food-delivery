@@ -1,0 +1,145 @@
+/* navigation bar */
+@media (max-width:1216px){
+
+    #navbar{
+        position: absolute;
+    }
+}
+@media (max-width:838px) and (min-width:396px){
+    #navbar{
+        /* display: flex; */
+        flex-direction: column;
+    } 
+}
+@media (max-width:681px) {
+    #navbar::before{
+        /* display: flex; */
+        opacity: 0.8;
+    } 
+    #navbar ul li a{
+        color: white;
+        border: 4px solid red;
+    }
+}
+@media (max-width:396px){
+    /* #navbar ul{
+        flex-direction: column;
+    } */
+    #navbar {
+        flex-direction: column;
+    }
+}
+/* home portion */
+@media (max-width:1762px){
+    #home::before{
+        padding: 300px;
+    }
+}
+@media (max-width:1202px) {
+    #home{
+        padding: 150px;
+    }
+}
+@media (max-width:832px) {
+    #home{
+        padding-top: 330px;
+    }
+}
+@media (max-width:395px) {
+    #home{
+        padding-top: 619px;
+        padding-left: 20px;
+    }
+}
+/* for background */
+    @media (max-width:1175px) {
+        #home::before{
+            /* height: 994px; */
+            position: relative;
+        }
+    }
+    
+    #home p{
+        color: black;
+        border: 2px solid grey;
+        background-color: lavender;
+        
+    }
+    }
+   /* now working on services */
+    @media (max-width:1762px){
+        .service-container{
+            margin-top: 600px;
+        }
+    }
+    @media (max-width:1160px){
+        #services{
+            flex-wrap: wrap;
+        }
+    }
+    @media (max-width:1266px){
+        #services img{
+            padding: 2px;
+        }
+    }
+    /* now working on client section */
+    /* @media (max-width:1630px){
+        #clients{
+            flex-wrap: wrap;
+        }
+        .client-section{
+            position: static;
+        }
+    }
+     */
+     @media (max-width:1762px){
+         #client-section::before{
+             height: 66%;
+             
+         }
+     }
+     @media (max-width:1612px) and (min-width:1030px){
+         #client-section::before{
+             height: 139%;
+             
+         }
+     }
+     @media (max-width:1020px){
+         #client-section::before{
+             height: 139%;
+             
+         }
+     }
+     @media (max-width:698px){
+         #client-section::before{
+             height: 210%;
+             
+         }
+     }
+     @media (max-width:1619px){
+         #clients{
+             flex-wrap: wrap;
+             padding: 20px;
+             text-align: center;
+             
+         }
+     }
+     /* lets now work on contact section */
+     @media (max-width:736px){
+
+         #contact-box form{
+            width: 564px;
+         }
+     }
+     @media (max-width:622px){
+
+         #contact-box form{
+            width: 414px;
+         }
+     }
+     @media (max-width:476px){
+
+         #contact-box form{
+            width: 300px;
+         }  
+     }
